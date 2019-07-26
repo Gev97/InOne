@@ -20,6 +20,7 @@ namespace Internship
                 " the inside of the lower lid \n";
 
         }
+        // constructor for changing the text
         public Notebooks(string text)
         {
             read = text;

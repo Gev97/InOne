@@ -19,6 +19,7 @@ namespace Internship
                 "Championship of Drivers in 1950 The sport's history parallels the \n" +
                 " evolution of its technical regulations.";
         }
+        // constructor for changing the text
         public Copybooks(string text)
         {
             read = text;

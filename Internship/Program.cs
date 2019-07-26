@@ -9,19 +9,22 @@ namespace Internship
     class Program
     {
         static void Main(string[] args)
-        {Books books = new Books();
+        { 
+            // Creating objectes
+            Books books = new Books();
             Journals journals = new Journals();
             Notebooks notebooks = new Notebooks();
             Copybooks copybooks = new Copybooks();
-
-            string stop = "";
-            string decision;
+            // initilaising some variables for conversation
+            string stop = ""; 
+            string decision;  
             string type;
             string text;
             while (stop != "STOP")
             {
                 Console.WriteLine("Read or Write ?");
-                decision = Console.ReadLine();
+                decision = Console.ReadLine();  // chooes to read or to write 
+
                 decision = decision.ToLower();
 
                 if (decision == "read")
@@ -30,6 +33,7 @@ namespace Internship
                     Console.WriteLine("Book,Journal,Notebook,Copybook ?");
                     type = Console.ReadLine();
                     type = type.ToLower();
+                    // choose type
                     switch (type)
                     {
                         case "book":
@@ -62,6 +66,7 @@ namespace Internship
                     Console.WriteLine("Notebook or Copybook ?");
                     type = Console.ReadLine();
                     type = type.ToLower();
+                    // choose type 
                     switch (type)
                     {
                         case "notebook":
@@ -86,6 +91,7 @@ namespace Internship
 
                 }
                 Console.WriteLine();
+                // type STOP to exit from loop
                 Console.WriteLine("Type STOP to stop or press Enter to continue !!!");
                 stop = Console.ReadLine();
             }
