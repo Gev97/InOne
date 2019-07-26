@@ -1,0 +1,6 @@
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\bin\Debug\Equally.exe.config
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\bin\Debug\Equally.exe
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\bin\Debug\Equally.pdb
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\obj\Debug\Equally.csproj.CoreCompileInputs.cache
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\obj\Debug\Equally.exe
+D:\JUST FOR PROGRAMMING\C#\Internship\Equally\obj\Debug\Equally.pdb
