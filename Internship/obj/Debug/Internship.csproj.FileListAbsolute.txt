@@ -1,7 +1,0 @@
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\bin\Debug\Internship.exe.config
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\bin\Debug\Internship.exe
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\bin\Debug\Internship.pdb
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\obj\Debug\Internship.csprojAssemblyReference.cache
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\obj\Debug\Internship.csproj.CoreCompileInputs.cache
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\obj\Debug\Internship.exe
-D:\JUST FOR PROGRAMMING\C#\Internship\Internship\obj\Debug\Internship.pdb

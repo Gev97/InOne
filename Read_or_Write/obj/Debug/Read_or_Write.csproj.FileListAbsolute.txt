@@ -1,0 +1,7 @@
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\bin\Debug\Read_or_Write.exe.config
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\bin\Debug\Read_or_Write.exe
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\bin\Debug\Read_or_Write.pdb
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\obj\Debug\Read_or_Write.csprojAssemblyReference.cache
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\obj\Debug\Read_or_Write.csproj.CoreCompileInputs.cache
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\obj\Debug\Read_or_Write.exe
+D:\JUST FOR PROGRAMMING\C#\Internship\Read_or_Write\obj\Debug\Read_or_Write.pdb

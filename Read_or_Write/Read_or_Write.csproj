@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3C72368-2629-423F-A2C1-BBDE944E62A8}</ProjectGuid>
+    <ProjectGuid>{9DDB4118-535A-4F6D-BEF4-0FA754EB487D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Internship</RootNamespace>
-    <AssemblyName>Internship</AssemblyName>
+    <RootNamespace>Read_or_Write</RootNamespace>
+    <AssemblyName>Read_or_Write</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Books.cs" />
+    <Compile Include="Book.cs" />
     <Compile Include="Copybooks.cs" />
-    <Compile Include="Information.cs" />
     <Compile Include="Journals.cs" />
     <Compile Include="Notebooks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Read.cs" />
+    <Compile Include="Write.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

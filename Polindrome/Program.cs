@@ -10,33 +10,27 @@ namespace Polindrome
     {
         static void Main(string[] args)
         {
-            while (true)
+            int number; // our number
+            Console.WriteLine("Enter number ");
+            number = int.Parse(Console.ReadLine());
+
+            Polindrome(number);
+            
+        }
+        public static void Polindrome(int number)
+        {
+            int reverse = 0;
+            while (number > reverse)
             {
-
-
-                double number; // our number
-                string s_number, reverse = ""; 
-                Console.WriteLine("Enter number ");
-                number = double.Parse(Console.ReadLine()); 
-                s_number = number.ToString(); // changing to string 
-
-                // making reverse of that string
-                for (int i = s_number.Length - 1; i >= 0; i--)
-                {
-                    reverse += s_number[i].ToString();
-                }
-
-                //chaking if polindrome
-                if (reverse == s_number)
-                {
-                    Console.WriteLine("It is polindrome");
-                }
-                else
-                {
-                    Console.WriteLine("It is not polindrome");
-
-                }
+                reverse = reverse * 10 + number%10;
+                number = number / 10;
+              
             }
+            if (number == reverse || number == reverse / 10)
+                Console.WriteLine("Number is palindrome ");
+            else
+                Console.WriteLine("Number is not palindrome");
         }
     }
+
 }
